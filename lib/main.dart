@@ -42,7 +42,7 @@ class _DicePageState extends State<DicePage> {
                   changeDice();
                 });
               },
-              child: Image.asset('images/dice$leftDiceNumber.png'),
+              child: Image.asset('images/dice$leftDiceNumber.png'), // gets dice image
             ),
           ),
           Expanded(
